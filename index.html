@@ -46,48 +46,84 @@
     <!-- header section start -->
      <header>
         <nav class="w-11/12 mx-auto">
-        <div class="navbar bg-base-100 ">
+        <div class="navbar p-0 py-2 ">
             <div class="navbar-start">
-              <div class="dropdown">
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor">
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M4 6h16M4 12h8m-8 6h16" />
-                  </svg>
-                </div>
-                <ul
-                  tabindex="0"
-                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                  
-                </ul>
-              </div>
-              <a class="btn btn-ghost text-xl">
-                <img src="./images/logo.svg" alt="">
+             
+              <a href="#" class="">
+                <img class="w-36" src="./images/logo.svg" alt="">
               </a>
             </div>
             <div class="navbar-center hidden lg:flex">
-              <ul class="menu menu-horizontal px-1">
-                <li><a>Home</a></li>
-                <li><a>Everything</a></li>
-                <li><a>Groceries</a></li>
-                <li><a>About</a></li>
-                <li><a>Contact</a></li>
+              <ul class="menu menu-horizontal px-1 
+              text-lg font-medium">
+                <li class="hover:text-primarytransition-colors duration-300 ease-in-out"><a>Home</a></li>
+                <li class="hover:text-primary
+                transition-colors duration-300 ease-in-out"><a>Everything</a></li>
+                <li class="hover:text-primary
+                transition-colors duration-300 ease-in-out"><a>Groceries</a></li>
+                <li class="hover:text-primary
+                transition-colors duration-300 ease-in-out"><a>About</a></li>
+                <li class="hover:text-primary
+                transition-colors duration-300 ease-in-out"><a>Contact</a></li>
 
               </ul>
             </div>
             <div class="navbar-end">
-              <a class="btn">Button</a>
+              <div class="flex items-center gap-5 font-semibold ">
+                <button class="flex items-center gap-2 font-semibold text-accent">
+                  <span>$20.00</span>
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+                <button class="text-accent">
+                  <i class="fa-solid fa-user"></i>
+                </button>
+              </div>
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <i class="fa-solid fa-bars"></i>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-lg font-medium right-0 gap-5">
+                  <li class="hover:text-primarytransition-colors duration-300 ease-in-out"><a>Home</a></li>
+                <li class="hover:text-primary
+                transition-colors duration-300 ease-in-out"><a>Everything</a></li>
+                <li class="hover:text-primary
+                transition-colors duration-300 ease-in-out"><a>Groceries</a></li>
+                <li class="hover:text-primary
+                transition-colors duration-300 ease-in-out"><a>About</a></li>
+                <li class="hover:text-primary
+                transition-colors duration-300 ease-in-out"><a>Contact</a></li>
+                  
+                </ul>
+              </div>
             </div>
           </div>
            </nav>
+<!-- banner section -->
+ <section class=" bg-leaf1 bg-no-repeat bg-right-bottom">
+  <div class="w-full h-full bg-body bg-opacity-90">
+<div class="lg:w-9/12 mx-auto py-28 flex sm:flex-row flex-col items-center ">
+  <div class="flex-1 lg:mr-20">
+    <img src="./images/bannerbg.png" alt="">
+  </div>
+  <div class="flex-1 sm:text-left text-center">
+    <h4 class="text-xl font-semibold my-5">Best Quality Products</h4>
+    <h1 class="lg:text-6xl text-4xl font-semibold leading-tight">Join The Organic Movement</h1>
+    <p class="my-5 text-lg">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore asperiores labore veritatis tempore necessitatibus dicta provident illum omnis ipsum dolorem!
+    </p>
+    <div class="flex sm:justify-start justify-center ">
+      <button class="btn flex items-center bg-accent text-white px-10 rounded-md hover:bg-primary py-4">
+        <i class="fa-solid gap-2  fa-cart-shopping"></i>
+        <span>Shop now</span>
+      </button>
+    </div>
+  </div>
+</div>
+  </div>
+ </section>
+
      </header>
     
 </body>
